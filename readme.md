@@ -5,7 +5,6 @@
   Sorteador de Números
 </h1>
 
----
 
 Este é um projeto simples que permite ao usuário sortear um número entre dois valores fornecidos. O sistema valida se o número inicial é menor que o final e exibe o número sorteado em uma interface amigável. Feito com HTML, CSS e JavaScript, o projeto pode ser visualizado em dispositivos móveis e desktops.
 
