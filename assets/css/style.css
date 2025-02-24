@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+}
+
+body {
+    /* background-color: #B64086; */
+    background-image: url(../img/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20.75rem;
+    margin: 25px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container-number {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    
+}
+
+.container-number input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 20px;
+    height: 40px;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1.5rem;
+    text-align: center;
+    outline: none;
+    background-color: rgb(194, 194, 194);
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: auto;
+    width: 15%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:active {
+    background-color: rgb(80, 239, 80);
+}
+
+p {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .container-number input {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    button {
+        width: 75%;
+        height: 3rem;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 50px;
+    }
+
+    p {
+        font-size: 1.9rem;
+    }
+}
